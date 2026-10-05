@@ -1,0 +1,162 @@
+[
+  {
+    "id": "kb001",
+    "domain": "geography",
+    "title": "Encyclopedia: Capital of Australia",
+    "text": "Canberra is the capital city of Australia. It was purpose-built as the capital in 1913 as a compromise between Sydney and Melbourne, which had both competed for the title.",
+    "source": "Reference Encyclopedia",
+    "trust_score": 0.95
+  },
+  {
+    "id": "kb002",
+    "domain": "science",
+    "title": "Physics Reference: Boiling Point of Water",
+    "text": "At standard atmospheric pressure (1 atm, sea level), water boils at 100 degrees Celsius (212 degrees Fahrenheit).",
+    "source": "Physics Reference Handbook",
+    "trust_score": 0.95
+  },
+  {
+    "id": "kb003",
+    "domain": "science",
+    "title": "Space Agency Fact Sheet: Great Wall Visibility Myth",
+    "text": "Contrary to popular belief, the Great Wall of China is not visible to the naked eye from the Moon or from low Earth orbit without aid; this claim is a persistent myth debunked by multiple astronauts.",
+    "source": "Space Agency Fact Sheet",
+    "trust_score": 0.9
+  },
+  {
+    "id": "kb004",
+    "domain": "geography",
+    "title": "Geological Survey: Height of Mount Everest",
+    "text": "Mount Everest stands at 8,849 meters above sea level according to the most recent joint China-Nepal survey published in 2020.",
+    "source": "National Geological Survey",
+    "trust_score": 0.95
+  },
+  {
+    "id": "kb005",
+    "domain": "technology",
+    "title": "Computing History: Python Programming Language",
+    "text": "The Python programming language was created by Guido van Rossum and was first released in 1991.",
+    "source": "Computing History Archive",
+    "trust_score": 0.9
+  },
+  {
+    "id": "kb006",
+    "domain": "biology",
+    "title": "Anatomy Reference: Adult Human Skeleton",
+    "text": "The adult human body typically has 206 bones, though the number can vary slightly between individuals.",
+    "source": "Anatomy Reference Textbook",
+    "trust_score": 0.9
+  },
+  {
+    "id": "kb007",
+    "domain": "science",
+    "title": "Physics Reference: Speed of Light",
+    "text": "Light travels at approximately 299,792 kilometers per second in a vacuum, a constant denoted as c.",
+    "source": "Physics Reference Handbook",
+    "trust_score": 0.95
+  },
+  {
+    "id": "kb008",
+    "domain": "history",
+    "title": "Architecture History: Eiffel Tower",
+    "text": "The Eiffel Tower was completed in 1889 in Paris, France, as the entrance arch for the World's Fair.",
+    "source": "Architecture History Archive",
+    "trust_score": 0.9
+  },
+  {
+    "id": "kb009",
+    "domain": "technology",
+    "title": "Corporate History: Founding of Apple Inc.",
+    "text": "Apple Inc. was founded in 1976 by Steve Jobs, Steve Wozniak, and Ronald Wayne in Cupertino, California.",
+    "source": "Corporate History Archive",
+    "trust_score": 0.9
+  },
+  {
+    "id": "kb010",
+    "domain": "technology",
+    "title": "Corporate History: First iPhone Release",
+    "text": "The first iPhone was released by Apple in June 2007, introducing a touchscreen smartphone to the mass market.",
+    "source": "Corporate History Archive",
+    "trust_score": 0.9
+  },
+  {
+    "id": "kb011",
+    "domain": "science",
+    "title": "Physics Reference: Speed of Sound",
+    "text": "The speed of sound in dry air at room temperature (about 20 degrees Celsius) is approximately 343 meters per second.",
+    "source": "Physics Reference Handbook",
+    "trust_score": 0.9
+  },
+  {
+    "id": "kb012",
+    "domain": "science",
+    "title": "Astronomy Reference: Largest Planet",
+    "text": "Jupiter is the largest planet in the Solar System by both mass and volume.",
+    "source": "Astronomy Reference Handbook",
+    "trust_score": 0.95
+  },
+  {
+    "id": "kb013",
+    "domain": "geography",
+    "title": "Geography Reference: Sahara Desert",
+    "text": "The Sahara is the largest hot desert in the world, covering much of North Africa.",
+    "source": "Geography Reference Handbook",
+    "trust_score": 0.9
+  },
+  {
+    "id": "kb014",
+    "domain": "technology",
+    "title": "Corporate History: Founding of Microsoft",
+    "text": "Microsoft was founded in 1975 by Bill Gates and Paul Allen in Albuquerque, New Mexico.",
+    "source": "Corporate History Archive",
+    "trust_score": 0.9
+  },
+  {
+    "id": "kb015",
+    "domain": "history",
+    "title": "Modern History: Fall of the Berlin Wall",
+    "text": "The Berlin Wall fell in November 1989, marking a symbolic end to the division of Germany during the Cold War.",
+    "source": "Modern History Archive",
+    "trust_score": 0.9
+  },
+  {
+    "id": "kb016",
+    "domain": "technology",
+    "title": "Computing History: JavaScript Origins",
+    "text": "JavaScript was created by Brendan Eich in 1995 while he was working at Netscape Communications.",
+    "source": "Computing History Archive",
+    "trust_score": 0.9
+  },
+  {
+    "id": "kb017",
+    "domain": "science",
+    "title": "Physics Reference: General Relativity",
+    "text": "Albert Einstein published his theory of general relativity in 1915, expanding on his earlier special theory of relativity.",
+    "source": "Physics Reference Handbook",
+    "trust_score": 0.9
+  },
+  {
+    "id": "kb018",
+    "domain": "geography",
+    "title": "Geography Reference: Great Barrier Reef",
+    "text": "The Great Barrier Reef is located off the coast of Queensland, Australia, and is the world's largest coral reef system.",
+    "source": "Geography Reference Handbook",
+    "trust_score": 0.9
+  },
+  {
+    "id": "kb019",
+    "domain": "environment",
+    "title": "Environmental Science: Amazon Rainforest Oxygen Contribution",
+    "text": "The Amazon rainforest is a major carbon sink and biodiversity reserve, though the commonly repeated figure that it produces 20 percent of the world's oxygen is considered an overstatement by many atmospheric scientists.",
+    "source": "Environmental Science Reference",
+    "trust_score": 0.85
+  },
+  {
+    "id": "kb020",
+    "domain": "health",
+    "title": "Medical Reference: Type 2 Diabetes Management",
+    "text": "Type 2 diabetes is generally managed through a combination of diet, physical activity, and medication as prescribed by a qualified healthcare provider.",
+    "source": "Medical Reference Handbook",
+    "trust_score": 0.9
+  }
+]

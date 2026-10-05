@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>VERITAS — Hallucination Detection &amp; Fact Verification</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="wordmark">
+      <span class="wordmark-glyph">V</span>
+      <div class="wordmark-text">
+        <span class="wordmark-title">VERITAS</span>
+        <span class="wordmark-sub">Verification of Evidence, Retrieval &amp; Inference for Trustworthy AI Systems</span>
+      </div>
+    </div>
+    <div class="header-meta">
+      <span class="meta-pill">Model-agnostic</span>
+      <span class="meta-pill">Runs on local evidence base</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap layout">
+
+  <section class="panel input-panel">
+    <div class="panel-label">
+      <span class="panel-index">01</span>
+      <span>Paste an LLM response to audit</span>
+    </div>
+    <textarea id="response-input" spellcheck="false">{{ sample_response }}</textarea>
+    <div class="input-actions">
+      <button id="verify-btn" class="btn-primary">Run Verification</button>
+      <button id="sample-btn" class="btn-ghost">Reset sample</button>
+      <span id="status-text" class="status-text"></span>
+    </div>
+    <p class="hint">
+      The pipeline decomposes this text into atomic claims, retrieves independent evidence
+      from a local knowledge base, cross-checks each claim, calibrates a confidence score,
+      and explains every claim that isn't fully supported.
+    </p>
+  </section>
+
+  <section class="panel report-panel">
+    <div class="panel-label">
+      <span class="panel-index">02</span>
+      <span>Verification ledger</span>
+      <div id="trust-meter" class="trust-meter" hidden>
+        <span class="trust-label">Overall trust</span>
+        <div class="trust-bar"><div id="trust-bar-fill" class="trust-bar-fill"></div></div>
+        <span id="trust-value" class="trust-value">—</span>
+      </div>
+    </div>
+
+    <div id="empty-state" class="empty-state">
+      Run a verification to see the annotated ledger appear here — every claim gets a
+      verdict, a calibrated confidence bar, and an evidence-backed explanation.
+    </div>
+
+    <div id="ledger" class="ledger"></div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Prototype pipeline: claim extraction &rarr; evidence retrieval (TF&#8209;IDF) &rarr; heuristic
+    entailment check &rarr; confidence calibration &rarr; explanation generation.
+    Retrieval and verification stages are swappable with production-grade dense embeddings
+    and fine-tuned NLI models — see README.</p>
+  </div>
+</footer>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
